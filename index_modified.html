@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>ASSIGNMENT-3</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <style>
+            #Occupation{
+                width: 150px;
+            }
+            #Experience{
+                width: 150px;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="container">
+            <form>
+                <div class="row">
+                    <div class="col-25">
+                        <label for="firstname">First Name:</label>
+                    </div>
+                    <div class="col-75">
+                        <input type="text" id="fname" name="firstname">
+                    </div>
+                </div> <br>
+
+                <div class="row">
+                    <div class="col-25">
+                         <label for="lastname">Last Name:</label>
+                    </div>
+                    <div class="col-75">
+                        <input type="text" id="lname" name="lastname">
+                    </div> 
+                </div><br>
+
+                <div class="row">
+                    <div class="col-25">
+                         <label for="emailAddress">Email:</label>
+                    </div>
+                    <div class="col-75">
+                        <input type="email" id="emailid" name="emailAddress">
+                    </div>
+                </div><br>
+
+                <div class="row">
+                    <div class="col-25">
+                          <label for="contactno">Contact Number:</label>
+                    </div>
+                    <div class="col-75">
+                        <input type="number" id="contactno" name="contact">
+                    </div>
+                </div><br>
+
+                <div class="row">
+                    <div class="col-25">
+                         <label for="Address">Address:</label>
+                    </div>
+                    <div class="col-75">
+                        <textarea id="Address" name="Address"> </textarea>
+                    </div>
+                </div><br>
+
+                <div class="row">
+                    <div class="col-25">
+                         <label for="Username">Username:</label>
+                    </div>
+                    <div class="col-75">
+                        <input type="text" id="user" name="uname">
+                    </div>
+                </div><br>
+
+                <div class="row">
+                    <div class="col-25">
+                         <label for="password">Password:</label>
+                    </div>
+                    <div class="col-75">
+                        <input type="password" id="pwd" name="userpwd">
+                    </div>
+                </div><br>
+
+                <div class="row">
+                    <div class="col-25">
+                         <label for="gender">Gender:</label>
+                    </div>
+                    <div class="col-75">
+                        <input type="radio" id="male" name="gender" value="male">Male<br>
+                        <input type="radio" id="female" name="gender" value="female">Female
+                    </div>
+                </div><br>
+
+                <div class="row">
+                    <div class="col-25">
+                         <label for="Qualification">Qualification:</label>
+                    </div>
+                    <div class="col-75">
+                        <select id="Occupation" name="Occupation">
+                            <option label="--Select--"></option>
+                        </select>
+                    </div>
+                </div><br>
+
+                <div class="row">
+                    <div class="col-25">
+                         <label for="Experience">Experience:</label>
+                    </div>
+                    <div class="col-75">
+                        <select id="Experience" name="Experience">
+                            <option label="--Select-- "></option>
+                        </select>
+                    </div>
+                </div><br>
+
+                <div class="row">
+                    <div class="col-25">
+                         <label for="Languages">Coding Languages:</label>
+                    </div>
+                    <div class="col-75">
+                        <input type="checkbox" id="Clanguages" name="CodeLanguages"> C/C++<br>
+                        <input type="checkbox" id="Clanguages" name="CodeLanguages"> Java<br>
+                        <input type="checkbox" id="Clanguages" name="CodeLanguages"> C#<br>
+                        <input type="checkbox" id="Clanguages" name="CodeLanguages"> PHP<br>
+                        <input type="checkbox" id="Clanguages" name="CodeLanguages"> Python
+                    </div>
+                </div><br>
+
+                 <input type="submit" value="submit">
+            </form>            
+        </div>
+    </body>
+</html>
